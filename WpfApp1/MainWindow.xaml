@@ -15,7 +15,8 @@
                 <MenuItem Header="Exit" Click="MenuItem_Click" ></MenuItem>
             </MenuItem>
         </Menu>
-        <Button Content="Далее" HorizontalAlignment="Left" Height="29" Margin="668,374,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click"/>
+        <Button Content="Далее" HorizontalAlignment="Left" Height="29" Margin="668,374,0,0" VerticalAlignment="Top" Width="108"/>
         <Image Name="DisplayImageForm" HorizontalAlignment="Center" Stretch="Uniform" Margin="181,0,403,0" Width="208"/>
+
     </Grid>
 </Window>
