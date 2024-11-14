@@ -42,6 +42,13 @@ namespace WpfApp1
                 MessageBox.Show("Не выбрана картинка");
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window = new Window2();
+            window.Show();
+            this.Close();
+        }
     }
 
 }
